@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard_Clone</title>
+    <style>
+       
+        body{
+            margin: 0px;
+            padding: 0px;
+            
+            font-family: 'Segoe UI';
+            font-style: normal;
+            color: #f6f3f3;
+        }
+        header{
+            
+            background-color: #656CEC;
+            width: auto;
+            font-size: 4rem;
+            text-align: center;
+            line-height: 5rem;
+            font-family: 'Segoe UI';
+            font-style: normal;
+        
+            color: #FFFFFF;
+        }
+        #top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #656CEC;
+            margin-top: 0.3rem;
+            border-bottom-left-radius: 5rem;
+            border-bottom-right-radius: 5rem;
+        }
+        .one{
+            display: grid;
+            grid-template-columns: 2fr 3fr 2fr;
+            text-align: center;
+            margin: 1rem;
+        }
+        .avatar{
+            background-color:#BABEFF ;
+            border: 0.6rem solid #FFFFFF;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            padding: 2rem;
+
+        }
+        .second{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+        .third{
+            background-color:#BABEFF ;
+            border: 0.5rem solid #FFFFFF;
+            height: 9rem;
+            width: 9rem;
+            border-radius: 50%;
+            /* padding-top: ; */
+        }
+        .rank1{
+            margin: 1rem;
+            margin-top: 4rem
+
+        }
+        .rank1,.rank{
+            background-color: #BABEFF;
+            border: 1px solid #FFFFFF;
+            border-radius: 3rem;
+            padding: 0.2rem 0.5rem;
+            
+        }
+        .rank{
+            margin-bottom: 0.5rem;
+            margin-top: 0.5rem;
+            
+        }
+        .other{
+            display: flex;
+            flex-direction: column;
+            font-size: 1.5rem;
+            color: rgb(12, 12, 12);
+            
+            
+        }
+        .rest{
+            display: grid;
+            grid-template-columns:5% 12% auto auto;
+            margin-top: 0.8rem ;
+            padding:0.5rem;
+            background-color: #D2D4F2;
+            padding-top: 1rem;
+            
+        
+            
+        }
+        .test{
+            text-align: right;
+            padding-right: 10rem;
+            padding-top: 1rem;
+            
+        }
+        .ttest{
+            padding-top: 1rem;
+            padding-left:0.6rem;
+        }
+        .image{
+            background-color: #BABEFF;
+            height: 4rem;
+            width: 4rem;
+            border-radius: 50%;
+            border: 2px solid white;
+            margin-right: 7rem;
+        
+
+        }
+        
+       
+    </style>
+    
+</head>
+<body>
+    <header id="head">
+        Leaderboard
+    </header>
+    <div id="top">
+        <div class="one">
+            <div class="second">
+                <div class="rank1">2</div>
+                <div class="third"></div>
+                <div class="rank">JEREMY . 672</div>
+            </div>
+            <div class="second" id="first">
+                <div class="rank">1</div>
+                <div class="avatar"> </div>
+                <div class="rank">        AMANDA . 764           </div>
+            </div>
+            <div class="second">
+                <div class="rank1">3</div>
+                <div class="third"></div>
+                <div class="rank">JEFFERY . 542</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="other">
+        <div class="rest">
+            <div class="ttest">4.</div>
+            <div class="image"></div>
+            <div class="ttest">Joe</div>
+            <div class="test">445</div>
+            
+        </div>
+        <div class="rest">
+            <div class="ttest">5.</div>
+            <div class="image"></div>
+            <div class="ttest">Jenny</div>
+            <div class="test">438</div>
+            
+        </div>
+        <div class="rest">
+            <div class="ttest">6.</div>
+            <div class="image"></div>
+            <div class="ttest">Josh</div>
+            <div class="test">432</div>
+            
+        </div>
+        <div class="rest">
+            <div class="ttest">7.</div>
+            <div class="image"></div>
+            <div class="ttest">Stella</div>
+            <div class="test">321</div>
+            
+        </div>
+        <div class="rest">
+            <div class="ttest" >8.</div>
+            <div class="image"></div>
+            <div class="ttest">Sally</div>
+            <div class="test">300</div>
+           
+        </div>
+    </div>
+</body>
+</html>
